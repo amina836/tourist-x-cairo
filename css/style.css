@@ -1,0 +1,621 @@
+
+/*started rules*/
+ 
+button:hover
+{
+  transition-duration: 2s;
+}
+
+/* navbar style*/
+
+.navbar-default{
+  background-color:#030120ab;
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 0;
+  padding:10px;
+}
+.navbar-default .navbar-brand,.navbar-default .navbar-nav>li>a { 
+ color:#c8e5ff;
+}
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-nav>li>a:hover
+{
+  transition-duration: 0.2s;
+  color: #46b8da;
+}
+.navbar-default .navbar-brand
+{
+  font-size: 30px;
+}
+.spanNavbar
+{
+  font-size: 50px;
+}
+.navbar-default .navbar-nav>li>a
+{
+  font-size: 20px;
+}
+.carousel-inner
+{
+  height: 500px;
+}
+
+
+/* hotels section style */
+#hotelSection
+{
+  
+  
+  color: #0d0d20;
+  background-color: #eaf3f2;
+  padding-bottom: 50px;
+}
+
+.rowHotelHeading
+{
+  padding-top: 100px;
+}
+
+.hotel
+{
+  box-shadow: 1px 3px 5px #babebe;
+  border: 1px solid #deefef ;
+  padding: 5px;
+  margin: 20px;
+  background-color: #f8fff7; 
+  overflow: hidden;
+  
+
+}
+
+.hotel:hover
+{
+  background: rgba(0,0,0,0.1);
+  transition-duration: 2s;
+}
+.imgHotel:hover
+{
+  background: rgba(0,0,0,0.1);
+  transition-duration: 2s;
+  
+}
+.hotelbutton{
+  width: 370px;
+  box-shadow: none;
+  color: white;
+  background-color:  #5bc0de;
+  border: none;
+  font-size: 20px
+}
+.imgHotel
+{
+    height: -webkit-fill-available;
+}
+.hotel1
+{
+    height: 371px;
+    line-height: 46px;
+    width: 421px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: initial;
+    margin-right: 130px;
+   
+}
+.hotel2
+{
+    height: 370px;
+    border-radius: 5px;
+    width: 425px; 
+  
+}
+.rowHotels
+{
+  padding-top: 50px;
+
+}
+.buttonHotel
+{
+  width: 367px;
+}
+
+
+/* places section style*/
+#headPlacesSection2
+{
+  padding-top: 100px;
+   margin-top: 0;
+}
+#placesSection
+{
+	min-height: 700px;
+	padding: 40px;
+  /*margin-bottom: 10px;*/
+  padding-bottom: 80px;
+  background-color: #f8f8f8;
+
+}
+.places1
+{
+	padding-bottom: 30px;
+  /*margin-top: 300px;*/
+
+}
+.placesButton
+{
+  padding: 10px 30px 10px 30px;
+  border-radius: 15px;
+  margin-top: 442px;
+  width: 388px;
+}
+.placesLink
+{
+       width: 200px;
+       text-decoration: none;
+       color: white;
+       
+}
+.strongPlaces
+{
+    font-size: 20px;
+}
+.places2,.places3
+{
+    
+    padding-bottom: 30px;
+    border-radius: 23px;
+    background-color:#fffafa;
+    color: black;
+/*    height: 520px;
+*/    /*margin: 10px;*/
+    box-shadow: 1px 1px 5px #c7cacc;
+
+}
+.places3
+{
+    margin-left: -16px;
+    width: 420px;
+    padding-top: 6px;
+    height: 475px;
+  
+}
+.rowPlaces
+{
+  
+}
+.placeImg
+{
+   /*background-image: url(../img/places/القاهرة-مصر-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    height: 300px;
+    margin-bottom: -354px;
+
+}
+.imgPlace
+{
+    border-radius: 25px;
+    margin-top: 7px;
+    margin-left: -5px;
+}
+.places2
+{
+    margin-left: -21px;
+    width: 421px;
+    margin-right: 90px;
+   
+    margin-bottom: 50px;
+    margin-right: 210px;
+    /*margin-left: -19px;
+    height: 371px;
+    line-height: 46px;
+    width: 421px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: initial;
+    margin-right: 130px;
+    background-image: url(../img/places/القاهرة-مصر-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+   
+  
+}
+.places
+{
+
+}
+.heagingPlaces
+{
+  margin-bottom: 20px;
+}
+
+
+
+
+ /* contact section style*/
+#contactSection
+ {
+ 	
+ 	background: url(../img/places/1257707-time-to-make-some-discoveries-fit_400_400.jpg) no-repeat center fixed ;
+ 	background-size: cover;	
+  
+ }
+ .background-overlay
+ {
+
+ 	background :rgba(0, 0, 0, 0.76);
+ 	margin: 0px;
+ }
+
+ #headContact
+ {
+ 	color: white;
+    margin-top: 100px;
+    margin-bottom: 50px;
+ }
+
+#overlay
+{
+    
+    background: rgba(0, 0, 0, 0.68);
+    height: 698px;
+   
+}
+
+
+
+/*footer style*/
+#footer
+{
+	
+  background-color: #131222;
+  padding-top: 14px;
+ 
+  font-size: smaller;
+}
+.rowFooter
+{
+  margin-top: 0px;
+}
+.imgFooter
+{
+  width: 31px;
+  margin: 7px;
+}
+.foot
+{
+  margin-bottom: 1px;
+  color: #46b8da;
+}
+
+.headingFooter
+{
+  font-size:medium;
+  margin-top: 0px;
+  line-height: 30px;
+
+}
+
+
+/*placesSection style*/
+
+#placesSection2
+{
+   
+    width:100%; 
+
+}
+#headPlacesSection2
+{
+    margin-bottom: 30px;
+    padding: 20px;
+    
+}
+
+
+/*slider places section style*/
+#sliderPlaces
+{
+  height: 500px;
+}
+.carousel-inner>.item>img
+{
+  width: 100%;
+    height: 500px
+   
+}
+
+/* museum section style2*/
+.imgMuseum
+{
+    width: 250px;
+    height:200px;
+}
+.hrMuseum
+{
+    width: 312px;
+}
+.rowMusuem
+{
+  color: #204d74;
+}
+.headingMusuem
+{
+  color: #204d74;
+
+}
+.pargraph
+{
+
+  display: inline-block;
+  margin: 4px;
+}
+
+.museumCard
+{
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+    padding-top: 26px;
+    color: #47478d;
+    border-radius: 56px;
+    box-shadow: 1px 1px 6px #cbcdd5;
+    background-color: #e3e5e6;
+    border: 1px #d7d7d7 solid
+}
+.museumCard:hover{
+
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 2s;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { left:0px; top:0px;}
+  50%  { left:0px; top:0px;}
+  75%  { left:0px; top:0px;}
+  100% { left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { left:10px; top:0px;}
+  50%  { left:10px; top:10px;}
+  75%  { left:0px; top:10px;}
+  100% { left:0px; top:0px;}
+}
+/*.row
+{
+    margin-top: 20px;
+}*/
+
+#museumSection
+{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.rowMusuem
+{
+  margin: 20px;
+}
+ 
+ 
+
+
+
+/*all buttons */
+button
+{
+    box-shadow:2px 3px rgba(0,0,0,0.12); 
+}
+
+/*religious places style2*/
+#religiousSection
+{
+    background-image: url(../img/places/2339-layers-of-colours-fit_400_400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    padding-bottom: 65px;
+    color: #204d74;
+}
+
+.hrReligious
+{
+    margin-top: 60px;
+}
+.star1
+{
+    margin-top: 60px;
+    color: #4f52f6; 
+    margin-left: 365px;
+
+}
+.star2
+{
+    margin-top: 60px;
+    color: #4f52f6; 
+    margin-left: -393px;
+
+}
+.rowPlaces
+{
+    margin-top: 65px;
+}
+.religiousCards
+{
+    width: 360px;
+    margin: 10px;
+}
+.religiousCards:hover{
+
+  -webkit-animation-name: relCard;
+  -webkit-animation-duration: 5s;
+  animation-name: relCard ;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes  relCard {
+  0%   { left:0px; top:0px;}
+  25%  { left:0px; top:0px;}
+  50%  { left:0px; top:0px;}
+  75%  { left:0px; top:0px;}
+  100% { left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes  relCard {
+  0%   { left:0px; top:10px;}
+  25%  { left:0px; top:10px;}
+  50%  { left:0px; top:10px;}
+  75%  { left:0px; top:10px;}
+  100% { left:0px; top:10px;}
+}
+
+
+.religiousCard1,.religiousCard2,.religiousCard3,.religiousCard4,.religiousCard5,.religiousCard6
+{
+  /* box-shadow: 2px 13px 5px 1px #898cae*/
+}
+
+.religiousCard1
+{
+   
+    background-image:url(../img/places/سياحة-مصر.jpg) ;
+    background-size: cover;
+    height: 300px;
+}
+.panel1,.panel2,.panel3,.panel4,.panel5,.panel6,.flip1,.flip2,.flip3,.flip4,.flip5,.flip6 {
+  padding: 5px;
+  text-align: center;
+  background-color: #ededed;
+  border: solid 1px #c3c3c3;
+}
+
+.panel1,.panel2,.panel3,.panel4,.panel5,.panel6{
+  padding: 50px;
+  display: none;
+}
+.religiousCard2
+{
+   
+    background-image:url(../img/places/السياحة-في-القاهرة-1.jpg) ;
+    background-size: cover;
+    height: 300px;
+}
+
+.religiousCard3
+{
+   
+    background-image:url(../img/places/مدينة-القاهرة-1.jpg) ;
+    background-size: cover;
+    height: 300px;
+}
+
+
+.religiousCard4
+{
+   
+    background-image:url(../img/places/مصر-القاهرة.jpg) ;
+    background-size: cover;
+    height: 300px;
+}
+
+.religiousCard5
+{
+   
+    background-image:url(../img/places/مدينة-القاهرة.jpg) ;
+    background-size: cover;
+    height: 300px;
+}
+.religiousCard6
+{
+   
+    background-image:url(../img/places/القاهرة-مصر-1.jpg) ;
+    background-size: cover;
+    height: 300px;
+}
+
+/* parks style2*/
+
+#parksSection
+{
+
+    background-color: #eeffea;
+   /* margin-top: 10px;*/
+   /* margin-bottom: 10px;*/
+    padding: 50px;
+    color: #204d74;
+
+}
+.heagingParks
+{
+    /*color: #082011;*/
+    font-size: 25px;
+
+}
+.heagingParks hr
+{
+    width: 534px;
+    margin-left: 325px;
+    border-color: white;
+}
+
+.park
+{
+  
+    width: 350px;
+    background-color: #f2ffe1;
+    border: 1px solid #ffffff;
+    border-bottom: 2px dashed #ffffff;
+    border-radius: 0px;
+    box-shadow: 1px 2px 5px #122311;
+    margin: 20px;
+}
+.park img
+{
+ 
+    width: 344px;
+    height: 300px;
+    border-radius: 4px;
+    margin-left: -12px;
+}
+
+/* malls style2*/
+
+#mallsSection{
+    background-image: url(../img/places/867839-the-destructive-bombardment-of-a-planet-fit_400_400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+   color: #c8e5ff;
+  
+}
+.mall img 
+{
+    width: 300px;
+    height: 300px;
+}
+.mall{
+  width: 340px;
+  height: 600px;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+  margin: 20px;
+}
+
+.mall:hover {
+  width: 340px;
+  height: 600px;
+  -webkit-transform: rotate(10deg); /* Safari */
+  transform: rotate(10deg);
+}
+.placelink{
+    background-color: gray;
+    border:2px solid red; 
+}
